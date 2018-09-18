@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+
+<div style="background-color:#f1f1f1;padding:15px;">
+  <h1>Alex's Homepage</h1>
+  <h3></h3>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">
+      <a target="_blank" href="https://shafter.kernhigh.org">Campus </a></div> 
+    <div class="menuitem">
+      <a target="_blank" href="http://www.maxpreps.com/athlete/alex-aguilar/D5V8uWZGEea-8KA2nzwbTA/default.htm">Football Stats</a></div>
+    <div class="menuitem">
+      <a href="https://www.athletic.net/TrackAndField/Athlete.aspx?AID=9240321#!/L0">Track Stats </a></div>
+    <div class="menuitem">Gallery</div>
+  </div>
+
+  <div class="main">
+    <h2>About Me</h2>
+    <p>I am currently a senior in highschool. Much of my freetime consists of many diverse things. Since math is my favorite subject, mechanical engineering is my preferred major. I love helping others and making new friends. My overall GPA is a 4.3 and I'm ranked in the top 5 in my class.</p>
+    <img src="image.jpg" style="width:80%" height=404"  >
+  </div>
+
+  <div class="right">
+    <h2>Academically:</h2>
+    <p> I have been class president for the past 2 years of highschool and currently am the asb president. </p>
+    <h2>Athletically:</h2>
+    <p>I play many different sports such as: football, track, and soccer.</p>
+    <h2>College</h2>
+    <p>UCLA  </p>
+  </div>
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> This web page is a part of a demonstration of fluid web design made by w3schools.com. Resize the browser window to see the content respond to the resizing.</div>
+
+</body>
+</html>
